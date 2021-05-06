@@ -1,5 +1,10 @@
+import { Typography } from '@material-ui/core';
 import React from 'react';
 
 export default function AboutPage() {
-  return <div>Hello about page</div>;
+  return (
+    <div>
+      <Typography color="primary">Testy</Typography>
+    </div>
+  );
 }
